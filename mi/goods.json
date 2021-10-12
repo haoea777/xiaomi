@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c5c752522100ecd364cc53752bb660bc.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+    "price": 2599,
+    "name": "Xiaomi Civi"
+    ,
+    "info":"Xiaomi Civi"
+    ,
+    "herff":"./xiangqingye.html"
+  },
+  {
+    
+    "id": 2,
+    "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ab07e0fcbec3beb8b0f409db8bee8da4.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+    "price": 4999,
+    "name": "Xiaomi MIX 4",
+    "info":"CUP全面屏",
+    "herff":"xq1.html"
+  },
+  {
+    "id": 3,
+    "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/61454401f855cf5ed64747a6ac04bae5.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+    "price": 1599,
+    "name": "Note 10 Pro"
+    ,
+    "info":"天玑1100年度器件芯"
+    ,
+    "herff":"xq1.html"
+  },
+  {
+    "id": 4,
+    "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8909080ddb0851af0b87530e2927844f.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+    "price": 1099,
+    "name": "Redmi Note 10 5G"
+    ,
+    "info":"5G小金刚|旗舰长续航"
+    ,
+    "herff":"xq1.html"
+  },
+  {
+    "id": 5,
+    "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/5dc32ec73299ff79556dcd1cf0f0ac11.png?thumb=1&w=250&h=250&f=webp&q=90",
+    "price": 9999,
+    "name": "小米MIX FOLD",
+    "info":"折叠大屏|自研芯片"
+    ,
+    "herff":"xq1.html"
+  },
+  {
+    "id": 6,
+    "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/eb69512d9d6430d865d457ec52eebb51.png?thumb=1&w=250&h=250&f=webp&q=90",
+    "price": 5499,
+    "name": "小米11 Ultra",
+    "info":"1/1 12'GN2 | 2k四微曲屏"
+    ,
+    "herff":"xq1.html"
+  },
+  {
+    "id": 7,
+    "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/34caee2c867bfd8c5e0dc2d8c663e121.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+    "price": 4499,
+    "name": "小米11 Pro"
+    ,
+    "info":"1/1 12'GN2 | 晓龙888"
+    ,
+    "herff":"xq1.html"
+  },
+  {
+    "id": 8,
+    "src": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cb554f30eaa0316b0a736c3d59f21584.png?thumb=1&w=250&h=250&f=webp&q=90",
+    "price": 1999,
+    "name": "小米11青春版"
+    ,
+    "info":"小米11青春版 轻薄"
+    ,
+    "herff":"xq1.html"
+  }
+  
+]

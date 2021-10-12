@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/commom.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./resource/iconfont.css">
+  <link rel="stylesheet" href="./layui/css/layui.css">
+  <script src="./layui/layui.js"></script>
+  <style>
+    #dl {
+      width: 360px;
+    }
+
+    #dl span:last-child {
+      width: 120px;
+      background: #ff5c00;
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="index">
+    <!-- 头部导航 -->
+    <div id="nav">
+      <div class="content">
+        <ul>
+          <li><a href="">小米商城</a><span>&nbsp;|&nbsp;&nbsp;</span></li>
+          <li><a href="">MIUI</a><span>&nbsp;|&nbsp;&nbsp;</span></li>
+          <li><a href="">loT</a><span>&nbsp;|&nbsp;&nbsp;</span></li>
+          <li><a href="">云服务</a><span>&nbsp;|&nbsp;&nbsp;</span></li>
+          <li><a href="">天星数科</a><span>&nbsp;|&nbsp;&nbsp;</span></li>
+          <li><a href="">有品</a><span>&nbsp;|&nbsp;&nbsp;</span></li>
+          <li><a href="">小爱开放平台</a>&nbsp;<span>|&nbsp;&nbsp;</span></li>
+          <li><a href="">企业团购</a><span>&nbsp;|&nbsp;&nbsp;</span></li>
+          <li><a href="">资质证照</a><span>&nbsp;|&nbsp;&nbsp;</span></li>
+          <li><a href="">协议规则</a><span>&nbsp;|&nbsp;&nbsp;</span></li>
+          <li><a href="">下载app</a><span>&nbsp;|&nbsp;&nbsp;</span></li>
+          <li><a href="">智能生活</a><span>&nbsp;|&nbsp;&nbsp;</span></li>
+          <li><a href="">SelectLocation</a></li>
+        </ul>
+        <div id="dl">
+
+          <span class="hover">1095624882
+
+          </span>
+          <span>&nbsp;|&nbsp;</span>
+          <span class="hover">&nbsp;&nbsp;消息通知&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <span>&nbsp;|&nbsp;</span>
+          <span class="hover">我的订单</span>
+          <span onclick="fn1()">
+            <span class="iconfont icon-gouwuche">
+            </span>
+            购物车(0)
+          </span>
+        </div>
+
+      </div>
+    </div>
+    <!-- 设置logo和导航 -->
+    <div id="logo">
+      <div class="content">
+        <div class="header-logo">
+          <a href="//www.mi.com/index.html" title="小米官网" class="logo ir">
+            <img src="./images/logo.png" alt=""></a>
+        </div>
+        <div class="header-nav">
+          <ul>
+            <li>小米手机</li>
+            <li>Redmi红米</li>
+            <li>电视</li>
+            <li>笔记本</li>
+            <li>平板</li>
+            <li>家电</li>
+            <li>路由器</li>
+            <li>智能硬件</li>
+            <li>服务</li>
+            <li>社区</li>
+          </ul>
+        </div>
+        <div class="header-sousuo">
+          <input type="text"><button><span class="iconfont icon-sousuo"></span></button>
+
+        </div>
+      </div>
+    </div>
+    <!-- 轮播图 -->
+    <div id="home-hero">
+      <div class="content">
+        <div class="layui-carousel" id="test1">
+          <div carousel-item>
+            <div>
+              <img
+                src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a532e33470d046b3f044d5ea49fc5e9e.png?thumb=1&w=1533&h=575&f=webp&q=90"
+                alt=""> </div>
+            <div>
+              <img
+                src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2d8bc3d00fd977fc3fd0a18659cb5d55.jpg?thumb=1&w=1533&h=575&f=webp&q=90"
+                alt="">
+            </div>
+            <div>
+              <img
+                src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/918820682e4a490221cfd92b24c14b86.jpg?thumb=1&w=1533&h=575&f=webp&q=90"
+                alt="">
+            </div>
+            <div>
+              <img
+                src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/34eeb3763ae19ab10de282b376f3e661.jpg?thumb=1&w=1533&h=575&f=webp&q=90"
+                alt="">
+            </div>
+            <div>
+              <img
+                src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/7f7288cb89b7f6e976ebd73cc62d14f1.jpg?thumb=1&w=1533&h=575&f=webp&q=90"
+                alt="">
+            </div>
+          </div>
+        </div>
+        <div id="home-hero-sub">
+          <div>
+            <ul>
+              <li><a href=""><span class="iconfont icon-shizhong"></span><br>保障服务</a></li>
+              <li><a href=""><span class="iconfont icon-qiye"></span><br>企业团购</a></li>
+              <li><a href=""><span class="iconfont icon-guibintongdao"></span><br>F码通道</a></li>
+              <li><a href=""><span class="iconfont icon-sim"></span><br>米粉卡</a></li>
+              <li><a href=""><span class="iconfont icon-zhuanzhang1"></span><br>以旧换新</a></li>
+              <li><a href=""><span class="iconfont icon-shoujichongzhi
+                "></span><br>话费充值</a></li>
+            </ul>
+          </div>
+          <div>
+            <div><img
+                src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d8a6d6d37904e22c72130e3e4ec79b41.jpg?w=632&h=340"
+                alt=""></div>
+            <div><img
+                src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b30177d629bfbe2fb42251c1b8538f7b.jpg?w=632&h=340"
+                alt=""></div>
+            <div><img
+                src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9f18ac756fa2cedb16ea429b9c0001af.png?w=632&h=340"
+                alt=""></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 商品信息 -->
+    <div id="goods">
+      <div class="content">
+        <div class="home-banner-box"><a href="https://www.mi.com/redmik40"><img width="1226" height="120"
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f334fbd05d5681bb838fefd1c815d88c.jpg?thumb=1&w=1533&h=150&f=webp&q=90"></a>
+        </div>
+        <div class="box-hd">
+          <h2 class="title">手机</h2>
+          <div class="more"><a href="//www.mi.com/p/1915.html" target="_blank">查看更多<i
+                class="iconfont icon-youjiantou_huaban"></i></a></div>
+        </div>
+        <!-- 左边图片 -->
+        <div id="left">
+          <img
+            src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c583f2edc613f1be20fa415910b13ce3.jpg?thumb=1&w=293&h=768&f=webp&q=90"
+            alt="">
+        </div>
+        <!-- 右边图片动态加入 -->
+        <div id="box">
+        </div>
+        <!-- <div class="box-head">
+          <h2 class="title">家电</h2>
+          <div class="more"><a href="//www.mi.com/p/1915.html" target="_blank">热门<i
+                class="iconfont icon-youjiantou_huaban"></i></a></div>
+        </div> -->
+      </div>
+    </div>
+
+
+  </div>
+
+  <script src="./lib/jquery-2.2.4.js"></script>
+  <script src="./js/axios.js"></script>
+  <script src="./js/index.js"></script>
+
+</body>
+
+</html>
